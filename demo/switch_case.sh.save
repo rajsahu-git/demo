@@ -1,0 +1,22 @@
+#!/bin/bash
+shopt -s nocasematch
+echo "Enter the name of a month."
+read Week
+case $Week in
+  Sunday) 
+echo "There is Sunday.";;
+  Monday)
+echo "There  is Monday.";;
+  Tuesday)
+echo "There is Tuesday.";;
+  Sunday) 
+echo "There is Sunday.";;
+  Sunday) 
+echo "There is Sunday.";;
+  Sunday) 
+echo "There is Sunday.";;
+  Sunday) 
+echo "There is Sunday.";;
+ 
+  *)
+echo "Unknown month. Please check if you entered the correct month name: $month";
